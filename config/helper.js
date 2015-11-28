@@ -1,4 +1,4 @@
-var handlebars = require('sails/node_modules/express-handlebars/node_modules/handlebars'),
+var handlebars = require('handlebars'),
     layouts = require('handlebars-layouts'),
     forms = require('handlebars-form-helpers'),
     fs = require('fs');
