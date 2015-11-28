@@ -35,7 +35,9 @@
   </head>
 
   <body>
-    <%- body %>
+    {{#block "body" }}
+      test
+    {{/block}
 
 
 
@@ -90,7 +92,6 @@
 
     <!--SCRIPTS-->
     <script src="/js/dependencies/sails.io.js"></script>
-    <script src="/js/behavior-ui-standalone.js"></script>
     <script src="/js/behavior-ui.js"></script>
     <!--SCRIPTS END-->
   </body>
