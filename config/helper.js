@@ -6,4 +6,4 @@ var handlebars = require('sails/node_modules/express-handlebars/node_modules/han
 forms.register(handlebars);
 layouts.register(handlebars);
 
-handlebars.registerPartial('layout', fs.readFileSync('../views/layouts/layout.hbs', 'utf8'));
+handlebars.registerPartial('layout', fs.readFileSync('views/layouts/layout.hbs', 'utf8'));
