@@ -8,13 +8,15 @@
                 {{label "firstname" "Please enter your first name"}}
                 {{input "firstname" "" class="form-control"}}
             </div>
-            {{label "lastname" "Please enter your last name"}}
-      
+            <div class="form-group">
+                {{label "lastname" "Please enter your last name"}}
+                {{input "lastname" "" class="form-control" }}
             </div>
-            {{label "email" "Please enter your email address"}}
-     
+            <div class="form-group">
+                {{label "email" "Please enter your email address"}}
+                {{input "email" "" class="form-control"}}
             </div>
-            {{submit "save" "Signup!"}}
+            {{submit "save" "Signup!" class="btn btn-primary"}}
         {{/form}}
     </div>
 </div>
