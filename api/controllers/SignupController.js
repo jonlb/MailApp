@@ -7,5 +7,13 @@
 
 module.exports = {
 	
+	process: function(req, res) {
+	    
+	},
+	
+	validate: function(req, res) {
+	    
+	    
+	}
 };
 
