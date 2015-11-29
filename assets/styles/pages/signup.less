@@ -1,9 +1,16 @@
 body {
-    background-color: @background;
+    background-color: @blue;
 }
 
 .signup-form {
-    background-color: tan;
+    background-color: @tan;
     .drop-shadow(0, 2, 4px, .4);
     margin-top: 40px;
+    padding: 15px;
+    .form-group {
+        label: {
+            text-weight: bold;
+            font-size: 1.2em;
+        }
+    }
 }
