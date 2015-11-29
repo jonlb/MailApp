@@ -3,7 +3,12 @@
 {{#content "body"}}
 <div class="center">
     {{#form "/signup" class="signup-form"}}
-        
+        {{label "firstname" "Please enter your first name"}}
+
+        {{label "lastname" "Please enter your last name"}}
+  
+        {{label "email" "Please enter your email address"}}
+ 
         {{submit "save" "Signup!"}}
     {{/form}}
 </div>
