@@ -45,7 +45,7 @@ module.exports.routes = {
   * for configuration options and examples.                                  *
   *                                                                          *
   ***************************************************************************/
-  'GET /signup': { view: 'signupForm' },
+  'GET /signup': 'SignupController.form',
   'POST /signup': 'SignupController.process',
   '/validate': 'SignupController.validate'
 };
